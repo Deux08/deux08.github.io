@@ -116,16 +116,49 @@
 					<h1 class="text-center" id="progress">Progress</h1>
 					<hr>
 					<br>
-					<h3 class="text-left">Starting on the UI</h3>
+					<h3 class="text-left">Starting on the UI - January Week 1</h3>
 					<p>The bingo app is a c# based (WPF) desktop application with the use of Material design library</p>
 					<br>
-					<h5>January - Week 1</h5>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-6 col-xs-12"> <img class="img-fluid d-block" src="images/pic1.PNG"> </div>
-				<div class="col-md-6 col-xs-12"> <img class="img-fluid d-block" src="images/pic3.PNG"> </div>
+				<div class="col-md-6 col-xs-12 mt-3"> <img class="img-fluid d-block" src="images/pic1.PNG"> </div>
+				<div class="col-md-6 col-xs-12 mt-3"> <img class="img-fluid d-block" src="images/pic3.PNG"> </div>
 			  </div>
+
+			  <div class="row">
+				<div class="col-md-12 mt-4">
+					<br>
+					<h3 class="text-left">Most challenging week yet - January Week 2</h3>
+					<p>What is done in week 2</p>
+					<ul>
+						<li>The Creation and implementation of classes and methods</li>
+						<li>Creating a logo</li>
+						<li>Creating pages and linking them with one another</li>
+						<li>Working more on the user interface</li>
+					</ul>
+					<br>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+				  <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel" >
+					<ol class="carousel-indicators">
+					  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"> </li>
+					  <li data-target="#carouselExampleIndicators" data-slide-to="1"> </li>
+					  <li data-target="#carouselExampleIndicators" data-slide-to="2"> </li>
+					  <li data-target="#carouselExampleIndicators" data-slide-to="3"> </li>
+					</ol>
+					<div class="carousel-inner" >
+					  <div class="carousel-item active"> <img class="d-block img-fluid w-100" src="images/pic4.PNG"></div>
+					  <div class="carousel-item "> <img class="d-block img-fluid w-100" src="images/pic5.PNG"></div>
+					  <div class="carousel-item"> <img class="d-block img-fluid w-100" src="images/pic7.PNG"></div>
+					  <div class="carousel-item"> <img class="d-block img-fluid w-100" src="images/pic8.PNG"></div>
+					</div>
+				  </div>
+				</div>
+			  </div>
+			  
 		</div>
 	</div>
 	<hr>
@@ -190,6 +223,10 @@
 	      $(this).toggleClass('open');
 	   });
 	   });
+
+	   $('.carousel').carousel({
+ 		 interval: 4000
+		})
 	   // $("button").click(function(){
 	   //     $("bg-dark").toggleClass("bg-dark.scrolled");
 	   // });	   
