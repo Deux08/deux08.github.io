@@ -290,3 +290,9 @@ p {
   .card-img-wrap:hover:after {
 	opacity: 1;
   }
+
+.list-group > a:hover{
+	background-color: #12b9ab !important;
+	color:white ;
+	transition-duration: 0.5s;
+}
